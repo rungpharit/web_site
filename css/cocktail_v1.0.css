@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+		margin: 0;
+}
+h2{
+	font-size: 2em;
+}
+
+span{
+	display: block;
+	background-color: white;
+	padding: 5px;
+}
+.martini_all{	
+	position: relative;	
+	height: 100vh;
+	background-color: #e2af47;
+}
+.martini{
+	position: absolute;
+	height: 50%;
+	width: 100%;
+	transform: translateY(50%);
+}
+.cocktail{
+	margin: 0;
+	position: absolute;
+	color: #333333;	
+	top: 15%;
+	right: 50%;
+		
+}
+.you{
+	background-color: #333333;
+	color: #FFFFFF;
+	position: absolute;
+	padding: 5px;
+	top:15%;	
+	right: 40%;
+	border-radius: 5px;
+	
+}
